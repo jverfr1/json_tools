@@ -1,0 +1,22 @@
+{
+    "name": "x-92724-json-tools",
+    "version": "1.0.0",
+    "description": "Helper for JSON and JSON Schemas",
+    "license": "UNLICENSED",
+    "scripts": {
+        "build": "now-sdk build",
+        "deploy": "now-sdk deploy",
+        "fetch": "now-sdk fetch",
+        "dependencies": "now-sdk dependencies"
+    },
+    "devDependencies": {
+        "@servicenow/sdk": "2.2.9",
+        "@servicenow/glide": "26.0.1",
+        "eslint": "8.50.0",
+        "@servicenow/eslint-plugin-sdk-app-plugin": "2.2.9"
+    },
+    "dependencies": {
+        "json-schema-library": "10.0.0-rc8",
+        "genson-js":"0.0.8"
+    }
+}
